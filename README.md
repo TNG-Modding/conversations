@@ -31,6 +31,7 @@ Change this to one.
 ### For every event in /events
 
 If it is a popup change each option to create a modifier
+Focus on progress events.
 
 ### Automate creating modifiers for options
 Replace embraced_faction_timer
