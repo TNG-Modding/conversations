@@ -1,0 +1,5 @@
+﻿l_english:
+    ADDRESS_ISSUE_COOLDOWN:1 "We recently addressed an issue. This can only be done once every §Y5§! years."
+    ADDRESS_ISSUE:0 "Address the Issue in Government"
+    ADDRESS_ISSUE_DESC:0 "Hold a government session that directly addresses the issue."
+    

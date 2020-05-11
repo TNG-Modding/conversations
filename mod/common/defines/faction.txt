@@ -1,0 +1,14 @@
+	
+	NGameplay = {
+		POP_CHANGE_FACTION_CHANCE					= 0.10	# Once every month a pop has X chance to change faction but only if the pop wants to
+		POP_CURRENT_FACTION_WEIGHT					= 1.00	# Weight for current faction is multiplied by this much for pops
+		POP_FACTION_APPROVAL_VERY_LOW				= 0.20	# Below this level of approval a faction will have severe happiness penalties
+		POP_FACTION_APPROVAL_LOW					= 0.40	# Below this level of approval a faction will have severe happiness penalties
+		POP_FACTION_APPROVAL_BASE					= 0.50	# Base faction approval
+		POP_FACTION_APPROVAL_HIGH					= 0.60	# Above this level of approval a faction will have some bonus happiness
+		POP_FACTION_APPROVAL_VERY_HIGH				= 0.80	# Above this level of approval a faction will have more bonus happiness
+		POP_FACTION_MIN_POTENTIAL_MEMBERS			= 1 # If a faction has less potential members than this, do not form
+		POP_FACTION_CREATION_COOLDOWN				= 60 # Wait this many days after creating a faction to create another one (not applied to hidden factions)
+	}
+
+	
