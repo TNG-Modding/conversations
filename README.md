@@ -19,6 +19,13 @@
 - Assassinate key people, remove one pop to dip the draw for a conversation.
 - Pay off the faction to remove the draw of the conversation.
 
+- Disable authority and civic choices.
+- Your civics are conversations, and the one with the least support gets abandoned.
+- Civics are conversations. Civics require the possibility to be chosen.
+- Authorities are conversations. 
+- Support authority conversations to adopt the authority.
+- All adoptions create five years of instability.
+
 ## Methodology
 
 ### Update minimum pop faction
