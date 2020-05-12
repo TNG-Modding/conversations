@@ -1,7 +1,7 @@
 spriteTypes = {
     spriteType = {
         name = "GFX_faction_icon_{{varname}}"
-        textureFile = "gfx/interface/icons/faction_icons/faction_icons_{{varname}}.dds"
+        textureFile = "gfx/interface/icons/faction_icons/faction_icons_supremacists.dds"
         noOfFrames = 1
     }
 }
