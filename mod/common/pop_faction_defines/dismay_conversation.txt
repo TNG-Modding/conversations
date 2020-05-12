@@ -1,0 +1,75 @@
+##############################
+# Fear and Dismay Faction
+##############################
+
+dismay = {
+	election_header = "GFX_faction_header_yellow"
+	guiding_ethic = ethic_xenophobe
+
+	unique = yes
+	support_multiplier = 1
+
+	resources = {
+		category = pop_factions
+		produces = {
+			influence = 1
+		}
+	}
+
+	is_potential = {
+		NOT = { 
+			has_ethic = ethic_gestalt_consciousness }
+	}
+
+	parameters = {
+		empire = {
+			type = country
+			valid_objects = {
+				is_same_value = root
+			}
+		}
+	}
+
+	can_join_faction = {
+		is_enslaved = no
+		is_shackled_robot = no
+		is_being_purged = no
+		has_culture_shock = no
+		NOT = { has_trait = trait_nerve_stapled }
+	}
+
+	attraction = {
+		base = 150
+
+		modifier = {
+			factor = 1.25
+			exists = from
+			from = {
+				exists = leader
+				leader = { leader_class = ruler }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			exists = from
+			from = {
+				NOT = { exists = leader }
+			}
+		}
+
+		modifier = {
+			factor = 0.25
+			NOT = { is_same_species = owner_species }
+		}
+	}
+
+	leader = {
+		base = 100
+
+		modifier = {
+			factor = 0.0
+			is_event_leader = yes
+		}
+	}
+}

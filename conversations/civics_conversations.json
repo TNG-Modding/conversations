@@ -1,0 +1,11 @@
+{
+    "specs": [
+        {
+            "varname": "slavery_civic",
+            "name": "Enslavement Coalition",
+            "desc": "Those whose best outcome is from the labor of their body are but slaves by their own nature.",
+            "ethic": "authoritarian",
+            "durationYears": 25
+        }
+    ]
+}

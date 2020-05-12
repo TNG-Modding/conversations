@@ -1,3 +1,0 @@
-{varname}_exists = {
-	
-}

@@ -1,10 +1,10 @@
 ##############################
-# {varname} Faction
+# Migrants Welcomed Faction
 ##############################
 
-{varname} = {
+refugees_join = {
 	election_header = "GFX_faction_header_yellow"
-	guiding_ethic = ethic_{ethic}
+	guiding_ethic = ethic_xenophilic
 
 	unique = yes
 	support_multiplier = 1
@@ -58,7 +58,6 @@
 			}
 		}
 
-		# Should really check for citizenship instead
 		modifier = {
 			factor = 0.25
 			NOT = { is_same_species = owner_species }

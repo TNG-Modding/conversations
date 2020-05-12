@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_faction_icon_hyperlane_travelled"
+        textureFile = "gfx/interface/icons/faction_icons/faction_icons_hyperlane_travelled.dds"
+        noOfFrames = 1
+    }
+}

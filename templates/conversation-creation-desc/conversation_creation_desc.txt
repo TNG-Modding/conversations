@@ -1,0 +1,1 @@
+\n\nThis option will create the §H{{name}}§ {{ethic}} conversation!\nIt will last for {{duration}} days.

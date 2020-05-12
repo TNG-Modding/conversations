@@ -1,0 +1,18 @@
+{
+    "specs": [
+        {
+            "varname": "dictatorial_conversation",
+            "name": "Emergency Powers Initiative",
+            "desc": "We have found that there exists a national emergency arising from the insufficiency of spacefaring tonnage to carry the products of the artisan and metallurgy industries to their consumers abroad and within our great empire.",
+            "ethic": "authoritarian",
+            "durationYears": 25
+        },
+        {
+            "varname": "democracy_conversation",
+            "name": "Direct Citizen Correspondence",
+            "desc": "Those who are equal in any respect are equal in all respects. Because all our citizens are equally free, they can be made absolutely equal.",
+            "ethic": "authoritarian",
+            "durationYears": 25
+        }
+    ]
+}

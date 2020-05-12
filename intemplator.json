@@ -1,0 +1,37 @@
+{
+    "orders": 
+    [
+        {
+            "name": "Conversation Factions",
+            "specFilePath": "./conversations/conversations.json",
+            "templateDirectoryPath": "./templates/conversation",
+            "outputDirectoryPath": "./mod/common/pop_faction_defines",
+            "disabled": false,
+            "dumpContents": true
+        },
+        {
+            "name": "Conversation Names",
+            "specFilePath": "./conversations/conversations.json",
+            "templateDirectoryPath": "./templates/conversation-random-name",
+            "outputDirectoryPath": "./mod/common/random_names",
+            "disabled": false,
+            "dumpContents": true
+        },
+        {
+            "name": "Conversation Static Modifiers",
+            "specFilePath": "./conversations/conversations.json",
+            "templateDirectoryPath": "./templates/conversation-static-modifier",
+            "outputDirectoryPath": "./mod/common/static_modifiers",
+            "disabled": false,
+            "dumpContents": true
+        },
+        {
+            "name": "Conversation Icon Gfx",
+            "specFilePath": "./conversations/conversations.json",
+            "templateDirectoryPath": "./templates/conversation-interface",
+            "outputDirectoryPath": "./mod/interface",
+            "disabled": false,
+            "dumpContents": true
+        }
+    ]
+}
