@@ -1,7 +1,7 @@
-version="1.0"
+version="0.0.0"
 tags={
-	"Gameplay"
-	"Graphics"
+	"Balance"
+	"Overhaul"
 }
 name="Galactic Conversations"
-supported_version="2.5.1"
+supported_version="2.7.1"

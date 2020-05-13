@@ -2,18 +2,21 @@
 # . ./develop.ps1
 
 function develop {
-    Copy-Item "./descriptor.mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics.mod"
-    Copy-Item -Path "./mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics" -Recurse
+    Write-Output "Develop"
+    Copy-Item "./descriptor.mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation.mod"
+    Copy-Item -Path "./mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation" -Recurse
 }
 
 function undevelop {
-    Remove-Item -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics.mod"
-    Remove-Item -Recurse -Force -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics"
+    Write-Output "Undevelop"
+    Remove-Item -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation.mod"
+    Remove-Item -Recurse -Force -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation"
 }
 
 function redevelop {
-    Remove-Item -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics.mod"
-    Remove-Item -Recurse -Force -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics"
-    Copy-Item "./descriptor.mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics.mod"
-    Copy-Item -Path "./mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\star-wars-ethics" -Recurse
+    Write-Output "Redevelp["
+    Remove-Item -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation.mod"
+    Remove-Item -Recurse -Force -Path "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation"
+    Copy-Item "./descriptor.mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation.mod"
+    Copy-Item -Path "./mod" -Destination "C:\Users\Oliver\Documents\Paradox Interactive\Stellaris\mod\galactic-conversation" -Recurse
 }
