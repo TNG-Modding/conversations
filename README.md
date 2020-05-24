@@ -39,6 +39,8 @@ Change this to one.
 
 If it is a popup change each option to create a modifier
 Focus on progress events.
+Trall through every single event for the option paramater, find an option and title of event, find its localisation
+Generate a new templated conversation about it.
 
 ### Automate creating modifiers for options
 Replace embraced_faction_timer
@@ -60,3 +62,6 @@ Factions can only exist if their modifiers exist
         }
     }
 
+### Demands have to be put in the agendas
+
+### Update faction pulling 
